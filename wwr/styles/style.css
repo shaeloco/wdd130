@@ -1,8 +1,7 @@
 #content{
    height: 200px;
    max-width: 1600px;
-   margin: auto 0;
-   text-align: center;
+   margin: 0 auto;
 }
 
 nav a{
@@ -12,10 +11,8 @@ nav a{
    text-decoration: none;
 }
 
-#hero-msg{
-   text-align: center;
-}
-#hero-img{
+
+hero-img{
   width: 1000px;
 
 }
@@ -36,8 +33,9 @@ main section{
    text-align: center;
 }
 
-background{
+#background{
   height: 725px;
+  padding: 10px;
 }
 
 /* COLORS */
@@ -46,7 +44,7 @@ body {
   background-color: #ffe088; 
 }
 header {
-  background-color: #ffe088;
+  background-color: #233d4d;
 }
 nav a:hover {
   background-color: #233d4d;
@@ -72,7 +70,7 @@ h4{
 }
 
 #background{
-  background-color: #ffe088;
+  background-color: #4c7266;
 }
 .msg{
   background-color: #233d4d;
@@ -90,8 +88,8 @@ footer h3{
   color: white;
 }
 footer a{
-  background-color: none;
-  color: #233d4d;
+  background-color: transparent;
+  color: white;
   text-decoration: none;
 }
 footer a:hover{
@@ -99,12 +97,16 @@ footer a:hover{
   color: #ffe088;
 }
 footer{
-  background-color: #ffe088;
+  background-color: #233d4d;
+  color: #ffe088;
 }
-footer p {
+p {
+background-color: #233d4d;
 font-size: 1.2em;
+color: #ffe088;
+
 }    
-footer p a:hover{
+p a:hover{
   text-decoration: underline;
 }
 
@@ -112,4 +114,12 @@ footer p a:hover{
 
 .icon {
   width: 80px;
+}
+
+/* CENTERING */
+.center{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
 }
