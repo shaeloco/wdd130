@@ -9,6 +9,8 @@ nav a{
    background-color: #233d4d;
    color: white;
    text-decoration: none;
+   padding-right: 35px;
+
 }
 
 
@@ -31,20 +33,33 @@ hero-img{
 
 main section{
    text-align: center;
+   box-sizing: border-box;
 }
 
 #background{
   height: 725px;
   padding: 10px;
 }
-
+.mountains{
+  padding: 100px;
+  margin: 0;
+  
+}
 /* COLORS */
 
 body {
   background-color: #ffe088; 
+  font-family:  Rockwell, Goudy Old Style, Big-Caslon;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h2{
+  margin: 0;
 }
 header {
   background-color: #233d4d;
+
 }
 nav a:hover {
   background-color: #233d4d;
@@ -53,6 +68,9 @@ nav a:hover {
 .home-title{
   background-color: #233d4d;
   color: white;
+  font-family: Goudy Old Style, Rockwell, Big-Caslon;;
+  font-size: 2em;
+  margin-top: 10px;
 }
 h4{
   background-color: #233d4d;
@@ -62,6 +80,10 @@ h4{
   background-color: #233d4d;
   color: white;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover, .join:hover{
@@ -74,6 +96,8 @@ h4{
 }
 .msg{
   background-color: #233d4d;
+  line-height: 1.5em;
+  padding: 35px;
 }
 .msg h2{
   background-color: #233d4d;
@@ -82,6 +106,8 @@ h4{
 .msg p{
   background-color: #233d4d;
   color: white;
+  font-size: .8em;
+  padding-bottom: 15px;
 }
 footer h3{
   background-color: #233d4d;
@@ -99,6 +125,11 @@ footer a:hover{
 footer{
   background-color: #233d4d;
   color: #ffe088;
+  padding: 25px;
+  margin-top: 200px;
+}
+footer.social img{
+  padding-top: 15px;
 }
 p {
 background-color: #233d4d;
@@ -110,10 +141,20 @@ p a:hover{
   text-decoration: underline;
 }
 
+ .rivers-card, .camping-card, .rapids-card{
+  margin: 200px 0;
+} 
+.card-img{
+  border: 10px solid #233d4d;
+}
 /* ICONS AND LOGOS WIDTHS*/
 
 .icon {
   width: 80px;
+  padding-top: 10px;
+}
+#logo_link{
+  padding-top: 5px;
 }
 .logo{
   width: 80px;
