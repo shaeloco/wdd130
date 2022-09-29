@@ -150,9 +150,12 @@ p a:hover{
 
  .rivers-card, .camping-card, .rapids-card{
   margin: 200px 0;
+  box-sizing: border-box;
 } 
 .card-img{
   border: 10px solid #233d4d;
+  padding: 6px;
+  box-sizing: border-box;
 }
 /* ICONS AND LOGOS WIDTHS*/
 
