@@ -42,7 +42,7 @@ main section{
 }
 .mountains{
   padding: 100px;
-  margin: 0;
+  width: 600px;
   
 }
 /* COLORS */
@@ -71,10 +71,13 @@ nav a:hover {
   font-family: Goudy Old Style, Rockwell, Big-Caslon;;
   font-size: 2em;
   margin-top: 10px;
+  padding: 40px 0;
+
 }
 h4{
   background-color: #233d4d;
-  color: white
+  color: white;
+  padding: 40px 0;
 }
 .book, .join{
   background-color: #233d4d;
@@ -85,12 +88,16 @@ h4{
   margin-top: 50px;
   border-radius: 5px;
 }
-
+.join{
+  background-color: #4c7266;
+}
 .book:hover, .join:hover{
   background-color: #233d4d;
   color: #ffe088;
 }
-
+.join:hover{
+background-color: #4c7266;
+}
 #background{
   background-color: #4c7266;
 }
