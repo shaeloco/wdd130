@@ -113,7 +113,7 @@
   width: 325px; 
   height: 150px; 
   background-color: green; 
-  margin-left: -327px;
+  margin-left: -325px;
   margin-bottom: 354px;
 } 
 .yellow4 {
@@ -180,7 +180,7 @@
   height: 220px;
   margin-left: 10px;
   margin-top: 200px;
-  z-index: 1;
+  z-index: 4;
   background-color: green; 
 } 
 .yellow6 {
@@ -194,7 +194,7 @@
 } 
 .blue6 {
   width: 400px; 
-  height: 500px; 
+  height: 420px; 
   margin-left: 150px;
   margin-top: -540px;
   background-color: blue; 
