@@ -109,21 +109,30 @@ home-grid{
   padding: 6px;
   box-sizing: border-box;
   height: 300px;
-  
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.card-img:hover{
+  opacity: .6;
+  transform: scale(1.1);
 }
 #background{
   height: 225px;
   padding: 180px;
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
+
 }
 .mountains{
-  padding: 100px;
+  
   height: 400px;
   width: 700px;
-  margin-top: -800px;
+  margin-top: -1600px;
+  margin-left: 100px;
+  grid-column: 2/7;
+  grid-row: 5/8;
   margin-bottom: 200px;
-
+  box-shadow: 5px 5px 1px #6f7364
 
 
 /* COLORS */
@@ -192,12 +201,13 @@ background-color: #4c7266;
   background-color: #233d4d;
   line-height: 1.5em;
   padding: 35px;
-  margin-top: -650px;
+  margin-top: -550px;
   margin-left: 700px;
   margin-right: 100px;
   grid-column: 6/10;
-  grid-row: 5/8;
+  grid-row: 6/8;
   position: relative;
+  box-shadow: 1px 1px 1px #6f7364;
 }
 .msg h2{
   background-color: #233d4d;
@@ -227,10 +237,11 @@ footer{
   background-color: #233d4d;
   color: #ffe088;
   padding: 25px;
-  margin-top: 300px;
+  margin-top: 400px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  opacity: 0.9;
 }
 footer.social img{
   padding-top: 15px;
