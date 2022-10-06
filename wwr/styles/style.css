@@ -65,7 +65,6 @@ home-grid{
 }
  .rivers-card{
   margin: 200px 0;
-
   display: grid;
   width: 100%;
   grid-column: 2/4;
@@ -90,8 +89,7 @@ home-grid{
   margin-top: -450px;;
   width: 100%;
   display: grid;
-  grid-column: 5/7;
-  grid-row: 2/3;
+ 
   margin-left: 1205px;
   justify-content: left;
   justify-items: center;
