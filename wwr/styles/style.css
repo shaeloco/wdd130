@@ -268,14 +268,14 @@ width: 100%;
 
 @media screen and (max-width: 900px) {
   #hero, .home-grid {
-      display: block;
+      display: grid;
       height: auto;
   }
   nav, footer {
       flex-direction: column;
   }
   nav a {
-      display: block;
+      display: grid;
       padding: 15px;
   }
   #hero {
@@ -300,7 +300,7 @@ width: 100%;
   }
   .mountains, .msg {
       width: 80%;
-      display: block;
+      display: grid;
       margin: 0 auto;
   }
   footer {
