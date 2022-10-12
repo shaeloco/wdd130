@@ -80,7 +80,7 @@ home-grid{
 
 }  
 .rapids-card{
-width: 100%;
+
 grid-column: 8/10;
 grid-row: 2/3;
 }
