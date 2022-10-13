@@ -53,7 +53,7 @@ hero-img {
 
 main{
 
-  display: grid;
+display: grid;
 grid-template-columns: repeat(10, 1fr);
 
 }
@@ -133,6 +133,7 @@ body {
   font-size: 22px;
   margin: 0;
   padding: 0;
+  display: grid;
 }
 h2{
   margin: 0;
@@ -227,7 +228,7 @@ footer{
   background-color: #233d4d;
   color: #ffe088;
   padding: 25px;
-  margin-top: 400px;
+  margin-top: 200px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -273,30 +274,62 @@ width: 100%;
 
 /* RIVERS CSS */
 
-home-grid2{
+/* .home-grid2{
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(10, 1fr); */
 
 
-}
-h1{
-color: white;
+
+#hero-msg2 h1{
+color: #233d4d;
 font-family: Papyrus, Big-Caslon, Rockwell;
-font-size: 1em;
+font-size: 3em;
 text-align: center;
 }
-h6{
-font-size: 20px;
-color: #233d4d;
+#hero-msg2 p{
+  background-color: #233d4d;
+  display: block;
+  margin-left: 100px;
+  margin-right: 800px;
+  margin-top: 200px;
+  text-align: center;
+  
+}
+#hero2-img{
+  margin-left: 800px;
+  margin-right: 100px;
+  margin-top: -340px;
+}
+#hero-msg3 p{
+  background-color: #233d4d;
+  display: block;
+  margin-left: 800px;
+  margin-right: 100px;
+  margin-top: 200px;
+  text-align: center;
 
 }
 
+#hero3-img{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: -440px;
 
-
-
-
-
-
+}
+#hero-msg4{
+  background-color: #233d4d;
+  display: block;
+  margin-left: 100px;
+  margin-right: 800px;
+  margin-top: 200px;
+  text-align: center;
+}
+#hero4-img{
+  margin-left: 800px;
+  margin-right: 100px;
+  margin-top: -440px;
+  
+}
 /* .msg2{
   
   background-color: #233d4d;
