@@ -101,7 +101,7 @@ width: 100%;
   box-sizing: border-box;
   transition: transform .5s;
   box-shadow: 5px 5px 10px #6f7364;
-  width: 100%
+
 }
 .card-img:hover{
   opacity: .6;
