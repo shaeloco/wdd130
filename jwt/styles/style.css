@@ -13,6 +13,7 @@
     background-color: black;
     background-size:auto;
     transition: transform .1s;
+    
 }
 .Grid :hover{
     transform: scale(1.1); 
@@ -81,7 +82,7 @@ p{
     display: grid;
     grid-column: 1/2;
     grid-row: 1/3;
-
+    font-family: 'Times New Roman',Garamond, Helvetica;
 }
 #hero-img1{
     grid-column: 1/3;
@@ -156,5 +157,24 @@ footer a{
     text-decoration: none;
     padding: 30px;
    
+    
+}
+
+/* SECOND PAGE */
+#content2{
+    height: 200px;
+    max-width: 1600px;
+    margin: 0 auto;
+    
+       
+    }
+.Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-image:url(../images/hubble_constellations_galaxy_133115_1366x768.jpg);
+    background-color: black;
+    background-size:auto;
+    transition: transform .1s;
     
 }
