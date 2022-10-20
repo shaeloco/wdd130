@@ -52,7 +52,7 @@ header{
     
 }
 .hero-msg1{
-    font: Times;
+    font-family:'Times New Roman';
     font-size: 30px;
     text-align: center;
     color: #3A015C;
@@ -71,7 +71,7 @@ header{
     
 }
 p{
-    font: Times;
+    font-family: 'Times New Roman';
     color: #e7c24f;
     text-align: center;
     font-size: 16px;
