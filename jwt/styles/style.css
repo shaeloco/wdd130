@@ -130,7 +130,7 @@ p{
     height: 500px;
     width: 800px;
     object-fit: fill;
-    border: 9px groove #e7c24f;
+    border: 9px groove #FF9E00;
 }
 footer a:hover{
   background-color: black;
