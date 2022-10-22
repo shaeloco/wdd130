@@ -166,16 +166,56 @@ footer a{
     height: 200px;
     max-width: 1600px;
     margin: 0 auto;
-    
-       
-    }
-.Grid{
+
+   
+}
+.Grid2{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
     background-image:url(../images/hubble_constellations_galaxy_133115_1366x768.jpg);
     background-color: black;
     background-size:auto;
     transition: transform .1s;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
     
 }
+.Grid2 :hover{
+    transform: scale(1.1); 
+}
+#hero-msg2{
+    
+    font-family: 'Times New Roman', Georgia, Helvetica;
+    font-size: 30px;
+    text-align: center;
+    color: #3A015C;
+    margin-top: 0px;
+    display: grid;
+    
+}
+.home-title2{
+    font-family: 'Times New Roman', Georgia, Helvetica;
+    font-size: 30px;
+    text-align: center;
+    color: #3A015C;
+    margin-top: 0px;
+    display: grid;
+    grid-column: 1/2;
+}
+#hero-img4{
+    grid-column: 1/2;
+    grid-row: 1/2;
+   
+}
+
+.hero-img5{
+    display: grid;
+    grid-column: 4/4;
+    grid-row: 2/3;
+}
+.hero-img200{
+    display: grid;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+
