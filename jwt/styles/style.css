@@ -8,8 +8,8 @@
 .Grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    background-image:url(../images/hubble_constellations_galaxy_133115_1366x768.jpg);
+    grid-template-rows: 1fr 1fr; 
+    background-image: url(../images/hubble_constellations_galaxy_133115_1366x768.jpg);
     background-color: black;
     background-size:auto;
     transition: transform .1s;
@@ -83,6 +83,21 @@ p{
     display: grid;
     grid-column: 1/2;
     grid-row: 1/3;
+    font-family: 'Times New Roman',Garamond, Helvetica;
+}
+p.para1{
+    font-family: 'Times New Roman', Georgia, Helvetica;
+    color: #e7c24f;
+    text-align: center;
+    font-size: 16px;
+    padding: 30px 30px;
+    border: 5px solid #e7c24f;
+    border-radius: 20px;
+    background-color:#3A015C;
+    display: grid;
+    grid-column: 2/3;
+    grid-row: 1/3;
+    margin-left: 150px;
     font-family: 'Times New Roman',Garamond, Helvetica;
 }
 #hero-img1{
@@ -219,3 +234,75 @@ footer a{
 }
 
 
+/* PAGE 3 GALLERY */
+#content3{
+    height: 200px;
+    max-width: 1600px;
+    margin: 0 auto;
+
+}
+#hero-msg3{
+    font-family: 'Times New Roman', Georgia, Helvetica;
+    font-size: 30px;
+    text-align: center;
+    color: #3A015C;
+    margin-top: 0px;
+    display: grid;
+    
+
+}
+.home-title3{
+    background-color: #3A015C;
+    color: #e7c24f;
+    padding: 10px;
+    background-color: #3A015C;
+    border: 5px solid #e7c24f;
+    margin-left: 150px;
+
+    
+}
+#hero-img7{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    margin-left: 00px;
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    border: 9px groove #e7c24f;
+    
+} 
+iframe{
+  
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-left: -205px;
+    margin-top: 30px;
+    object-fit: contain;
+    border: 9px groove #e7c24f;
+    
+}  
+#hero-img2.Photo4{
+margin-left: 150px;
+margin-top: 35px;
+}
+#hero-img2.Photo9{
+/* margin-left: 30px;
+margin-top: 35px; */
+grid-column: 2/3;
+grid-row: 3/3;
+margin-top: 90px;
+margin-left: -200px;
+
+
+}
+
+iframe#vid1{
+  
+    grid-column: 4/4;
+    grid-row: 3/4;
+    object-fit: contain;
+    margin-top: 50px;
+    margin-right: 120px;
+    margin-bottom: 50px;
+    border: 9px groove #e7c24f;
+}  
