@@ -279,21 +279,24 @@ iframe{
     margin-top: 30px;
     object-fit: contain;
     border: 9px groove #e7c24f;
-    
+    width:560px; 
+    height:600px; 
 }  
 #hero-img2.Photo4{
 margin-left: 150px;
 margin-top: 35px;
 }
-#hero-img2.Photo9{
+#hero-img20{
 /* margin-left: 30px;
 margin-top: 35px; */
 grid-column: 2/3;
 grid-row: 3/3;
 margin-top: 90px;
 margin-left: -200px;
-
-
+object-fit: contain;
+border: 9px groove #e7c24f;
+height: 500px;
+width: 500px;
 }
 
 iframe#vid1{
@@ -305,4 +308,6 @@ iframe#vid1{
     margin-right: 120px;
     margin-bottom: 50px;
     border: 9px groove #e7c24f;
+    width:560px; 
+    height:600px;
 }  
